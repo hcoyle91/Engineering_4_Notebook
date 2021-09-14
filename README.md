@@ -6,7 +6,7 @@ Engineering 4 projects
 
 
 ## Hello Python
-'''C
+```C
 import math
 import random
 print("Automatic dice roller")
@@ -19,6 +19,6 @@ while check == "yes":
     print(check)
 else:
     print("ok goodbye")
-    '''
+    ```
 
 
