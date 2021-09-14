@@ -1,8 +1,8 @@
 # Engineering_4_Notebook
 Engineering 4 projects
 ##Table of contents:
-* [Table of contents](#TABLE OF CONTENTS)
-* [Hello Python](#HELLO PYTHON)
+* [Table of contents](#Table-of-contents)
+* [Hello Python](#Hello-Python)
 
 
 ## Hello Python
