@@ -18,8 +18,6 @@ while check == "yes": # creates a loop that occurs while the variable check is i
 
 else:  # If the variable check is not equal to yes then it will execute the following actions
     print("ok goodbye")
-
-
-    ```
+```
 
 
