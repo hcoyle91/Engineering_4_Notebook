@@ -19,6 +19,6 @@ while check == "yes":
     print(check)
 else:
     print("ok goodbye")
-'''C
+'''
 
 
