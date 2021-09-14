@@ -7,16 +7,24 @@ Engineering 4 projects
 
 ## Hello Python
 ```C
+
 import math
 import random
 print("Automatic dice roller")
+diceSides = int(input("how many side should the dice have? "))
+numDice = int(input("How many dice should there be? "))
 input("Press enter to roll:")
-print(random.randint(1,6))
+for i in range (0,numDice):
+    print(random.randint(1,diceSides))
+
 check = input("Would you like to roll the dice again? ")
+
 while check == "yes":
-    print(random.randint(1,6))
+    for x in range(0,numDice):
+        print(random.randint(1,diceSides))
     check =  input("Would you like to roll the dice again? ")
-    print(check)
+  
+
 else:
     print("ok goodbye")
     ```
