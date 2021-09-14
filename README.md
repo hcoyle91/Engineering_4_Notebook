@@ -1,4 +1,8 @@
 # Engineering_4_Notebook
+## Table of contents
+* [Table Of contents](table-Of-Contents)
+* [Python Code](Python-Code)
+
 ```C
 import random # import the library random so I can determine a random number
 print("Automatic dice roller") # Says the title in terminal
