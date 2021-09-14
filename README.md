@@ -1,5 +1,5 @@
 # Engineering_4_Notebook
-
+c```
 import random # import the library random so I can determine a random number
 print("Automatic dice roller") # Says the title in terminal
 diceSides = int(input("how many side should the dice have? ")) # Declares diceSides as the input from that question and casts that input as an int
