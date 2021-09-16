@@ -3,6 +3,8 @@
 * [Table Of contents](table-Of-Contents)
 * [Python Code](Python-Code)
 
+## Python code
+### Dice roller
 ```C
 import random                           # import the library random so I can determine a random number
 print("Automatic dice roller")          # Says the title in terminal
@@ -23,5 +25,17 @@ while check == "yes":                                        # creates a loop th
 else:                                                       # If the variable check is not equal to yes then it will execute the following actions
     print("ok goodbye")
 ```
+### Calculator
+```c
+import math
+firstNum = int(input("Enter the first number: "))
+secondNum = int(input("Enter the second number: "))
 
 
+difference = firstNum - secondNum
+sum1 = firstNum + secondNum
+product = firstNum * secondNum
+quotient = firstNum / secondNum
+modulo = firstNum % secondNum
+print("The difference: "+str(difference)+" The sum: "+str(sum1)+" The product: "+str(product)+" The quotient: "+str(quotient)+" The modulo: "+str(modulo))
+```
