@@ -28,14 +28,23 @@ else:                                                       # If the variable ch
 ### Calculator
 ```c
 import math
-firstNum = int(input("Enter the first number: "))
-secondNum = int(input("Enter the second number: "))
+a = int(input("Enter the first number: "))
+b = int(input("Enter the second number: "))
 
-
-difference = firstNum - secondNum
-sum1 = firstNum + secondNum
-product = firstNum * secondNum
-quotient = firstNum / secondNum
-modulo = firstNum % secondNum
-print("The difference: "+str(difference)+" The sum: "+str(sum1)+" The product: "+str(product)+" The quotient: "+str(quotient)+" The modulo: "+str(modulo))
+def doMath(a,b,c):
+    if c == 1:
+        return a + b
+    elif c == 2:
+        return a - b
+    elif c == 3:
+        return a * b
+    elif c == 4:
+        return a / b
+    elif c == 5:
+        return a % b
+    
+print("Sum:\t\t" + str(doMath(a,b,1)))
+print("Product:\t" + str(doMath(a,b,3)))
+print("Quotient:\t" + str(doMath(a,b,4)))
+print("Modulo:\t\t" + str(doMath(a,b,5)))
 ```
