@@ -35,12 +35,14 @@ This assignment was relatively simple, but was challenging because I had not cod
 ## Python_Calculator
 
 ### Assignment Description
-
+For this assignment I had to prompt the user for two integers as inputs and give the user the sum, quotient, difference, and modulo of those two numbers. However I had to use a function to do this. 
 
 ### Evidence 
-![calculator code](https://user-images.githubusercontent.com/89222808/133513750-727cdb6c-1c27-4c8a-83d4-50ea9136a221.png)
+![calculator code](https://user-images.githubusercontent.com/56696954/133629581-2fd6e22a-339d-410e-9cea-f26c9e717492.png)
 
 ### Wiring
-
+N/A
 
 ### Reflection
+
+This was a benficial assignment because I learned how to use functions and realised what I can do with them. At first it was very confuysing looking at how to use function but now I understand that they take in variables and you have to use 'return' inside the function in order to output values.
