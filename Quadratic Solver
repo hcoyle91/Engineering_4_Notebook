@@ -5,14 +5,15 @@ b = int(input("Enter b from the formula ax + bx + c:"))
 c = int(input("Enter c from the formula ax + bx + c:"))
 
 def solve(a,b,c,d):
-    if d == 1:
-        first = math.sqrt(b * b - 4 * a * c)
-        second = (first + b * -1)/(2 * a)
-        return second
-    if d == 2:
-        first = math.sqrt(b * b - 4 * a * c)
-        second = (b * -1 - first)/(2 * a)
-        return second
+    if (b * b - 4 * a * c)>0:
+        if d == 1:
+            first = math.sqrt(b * b - 4 * a * c)
+            second = (first + b * -1)/(2 * a)
+            return second
+        if d == 2:
+            first = math.sqrt(b * b - 4 * a * c)
+            second = (b * -1 - first)/(2 * a)
+            return second
         
 print("The first root is: " + str(solve(a,b,c,1)))
 print("The second root is: " + str(solve(a,b,c,2)))
