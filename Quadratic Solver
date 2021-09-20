@@ -14,6 +14,14 @@ def solve(a,b,c,d):
             first = math.sqrt(b * b - 4 * a * c)
             second = (b * -1 - first)/(2 * a)
             return second
+    elif (b * b - 4 * a * c) == 0:
+        first = math.sqrt(b * b - 4 * a * c)
+        second = (first + b * -1)/(2 * a)
+        return second
+    else:
+        final = "There are no real roots"
+        return final
+        
         
 print("The first root is: " + str(solve(a,b,c,1)))
 print("The second root is: " + str(solve(a,b,c,2)))
