@@ -4,26 +4,30 @@ a = int(input("Enter a from the formula ax + bx + c:"))
 b = int(input("Enter b from the formula ax + bx + c:"))
 c = int(input("Enter c from the formula ax + bx + c:"))
 
-def solve(a,b,c,d):
+def solve(a,b,c):
     if (b * b - 4 * a * c)>0:
-        if d == 1:
-            first = math.sqrt(b * b - 4 * a * c)
-            second = (first + b * -1)/(2 * a)
-            return second
-        if d == 2:
-            first = math.sqrt(b * b - 4 * a * c)
-            second = (b * -1 - first)/(2 * a)
-            return second
+        first = math.sqrt(b * b - 4 * a * c)
+        second = (first + b * -1)/(2 * a)
+        first2 = math.sqrt(b * b - 4 * a * c)
+        second2 = (b * -1 - first)/(2 * a)
+        roots = [second, second2]
+        return roots
     elif (b * b - 4 * a * c) == 0:
-        if d == 1:
-            first = math.sqrt(b * b - 4 * a * c)
-            second = (first + b * -1)/(2 * a)
-            return second
+        first = math.sqrt(b * b - 4 * a * c)
+        second = (first + b * -1)/(2 * a)
+        roots = second
+        return roots
     else:
-        if d == 1:
-            final = "There are no real roots"
-            return final
-        
-        
-print("The first root is: " + str(solve(a,b,c,1)))
-print("The second root is: " + str(solve(a,b,c,2)))
+        second = ""
+        second2 = ""
+        return []
+
+roots = solve(a,b,c)
+
+if len(roots) == 0:
+    print("There are no real roots")
+elif len(roots) == 2:
+    print("There are two real roots: "+str(roots))
+elif len(roots) == 1:
+    print("There is one real root: "+str(roots))
+    
