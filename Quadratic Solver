@@ -15,8 +15,8 @@ def solve(a,b,c):
     elif (b * b - 4 * a * c) == 0:
         first = math.sqrt(b * b - 4 * a * c)
         second = (first + b * -1)/(2 * a)
-        roots = second
-        return roots
+        second2 = ""
+        return [second]
     else:
         second = ""
         second2 = ""
