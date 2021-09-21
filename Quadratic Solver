@@ -1,9 +1,4 @@
 import math                     #import math library                     
-print("Quadratic Solver")                                               ## Print title
-a = int(input("Enter a from the formula ax + bx + c:"))         #Take three inouts as intigers as a b and c
-b = int(input("Enter b from the formula ax + bx + c:"))
-c = int(input("Enter c from the formula ax + bx + c:"))
-
 def solve(a,b,c):                       # defines a function as solve and takes in the input of a b and c
     if (b * b - 4 * a * c)>0:                           # Asks if the discrimenant is greater than 0 (then it does the equation for two roots) 
         first = math.sqrt(b * b - 4 * a * c)            # if it is less than 0 there are no roots and if the dicrimaanant is = to 0 do the equation for one root.
@@ -21,14 +16,20 @@ def solve(a,b,c):                       # defines a function as solve and takes 
         second = ""                                         #returns nothing
         second2 = ""
         return []
-
-roots = solve(a,b,c)                        # assigns a new variable 'roots' as the output of solve function
-
-if len(roots) == 0:                             # Asks if the length of the array roots is 0 2 or 1. 
-    print("There are no real roots")                #prints the apropriate message dependingon the length of roots and then prints roots (whatever the function returned).
-elif len(roots) == 2:
-    print("There are two real roots: "+str(roots))
-elif len(roots) == 1:
-    print("There is one real root: "+str(roots))
+print("Quadratic Solver")                                               ## Print title
+ask = ""
+while ask == "":
+    a = int(input("Enter a from the formula ax + bx + c:"))         #Take three inputs as intigers as a b and c
+    b = int(input("Enter b from the formula ax + bx + c:"))
+    c = int(input("Enter c from the formula ax + bx + c:"))
+    roots = solve(a,b,c)                        # assigns a new variable 'roots' as the output of solve function
+    if len(roots) == 0:                             # Asks if the length of the array roots is 0 2 or 1. 
+        print("There are no real roots")                #prints the apropriate message dependingon the length of roots and then prints roots (whatever the function returned).
+    elif len(roots) == 2:
+        print("There are two real roots: "+str(roots))
+    elif len(roots) == 1:
+        print("There is one real root: "+str(roots))
+    ask = input("Would you like to find the roots again? if yes hit enter, if no press x then enter: ")
+print("Ok goodbye")
     
 
