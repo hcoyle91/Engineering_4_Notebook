@@ -1,9 +1,10 @@
 import math
 
 word = input("Hello player one. Make sure player 2 is not around and enter the word")
-print ("\n" * 50)
+print ("\n" * 5)
 
-print("---"+"┐")
+print("---"+"┐\n\n\n\n\n")
+hanger = "---"+"┐"
 head = "   O\n"
 armLeft = "  /"
 body = "|"
@@ -11,14 +12,29 @@ rightArm = "\\\n"
 body2 = "   |\n"
 leftLeg = "  /"
 rightLeg = " \\"
+def fullBody(counter):
+    if counter = 
+    a = head
+    b = head + armLeft
+    c = head + armLeft + body
+    d = head + armLeft + body + rightArm
+    e = head + armLeft + body + rightArm + body2
+    f = head + armLeft + body + rightArm + body2 + leftLeg
+    g = head + armLeft + body + rightArm + body2 + leftLeg
 
-print(head+armLeft+body+rightArm+body2+leftLeg+rightLeg)
+counter = 0
 
 x = 0
 while (x < len(word)):
-    guesse = input("Player2 enter your guesse: ")
+    guesse = input("Player2 enter your guesse: \n")
     for i in word:
         if (guesse == word[x]):
-            for o in word:
-                print("_")
+            var = True
+            print("That matched!\n"+word[x])
+            x = x+1
+        else:
+            print("_ ")
+        if (guesse != word[x]):
+            counter = counter+1
+            
                 
