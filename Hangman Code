@@ -1,0 +1,24 @@
+import math
+
+word = input("Hello player one. Make sure player 2 is not around and enter the word")
+print ("\n" * 50)
+
+print("---"+"┐")
+head = "   O\n"
+armLeft = "  /"
+body = "|"
+rightArm = "\\\n"
+body2 = "   |\n"
+leftLeg = "  /"
+rightLeg = " \\"
+
+print(head+armLeft+body+rightArm+body2+leftLeg+rightLeg)
+
+x = 0
+while (x < len(word)):
+    guesse = input("Player2 enter your guesse: ")
+    for x in word:
+        if (guesse == word[x]):
+            for i in word:
+                print("_")
+                
