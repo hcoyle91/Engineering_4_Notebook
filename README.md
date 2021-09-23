@@ -4,6 +4,7 @@
 ## Table of Contents
 * [Python_Dice_Roller](#PythonDiceRoller)
 * [Python_Calculator](#Python_Calculator)
+* [Quadratic Solver](#Quadratic_Solver)
 
 
 ## Python_Dice_Roller
@@ -48,7 +49,7 @@ N/A
 This was a benficial assignment because I learned how to use functions and realised what I can do with them. At first it was very confuysing looking at how to use function but now I understand that they take in variables and you have to use 'return' inside the function in order to output values.
 
 
-## Python_Calculator
+## Quadratic_Solver
 
 ### Assignment_Description
 
@@ -56,7 +57,12 @@ For this assignment I had to make a program that prompted the user for 3 inputs 
 
 ### Evidence
 
+![Quadratic Solver](https://github.com/hcoyle91/Engineering_4_Notebook/issues/3#issue-1005425249)
 
 ### Wiring
 
+N/A
+
 ### Reflection
+
+This was a fun assignment overall. My main promblems included not reading the dirrections and figuring out a little more about functions. I started out with making a function identical to the one made in calulator assignment. But it turns out I needed to use if statements within the function. I also learned the length function which was very useful in determining how many roots there were using an array. Lastly, I didn't thoroughly read the dirrections so I did not see that the asssignment must include an option to solve again. Next time I will make sure to do this so I dont have to go back and change my code so much.
