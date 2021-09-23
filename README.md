@@ -46,3 +46,18 @@ N/A
 ### Reflection
 
 This was a benficial assignment because I learned how to use functions and realised what I can do with them. At first it was very confuysing looking at how to use function but now I understand that they take in variables and you have to use 'return' inside the function in order to output values.
+
+
+## Python_Calculator
+
+### Assignment_Description
+
+For this assignment I had to make a program that prompted the user for 3 inputs and printed two roots if ithe function had two roots or 1 root if the function had one root or no roots if the function had no roots. I had to offer an option to run the program again and I had to code all this using a function.
+
+### Evidence
+
+![Quadratic tps://user-images.githubusercontent.com/56696954/133629581-2fd6e22a-339d-410e-9cea-f26c9e717492.png)
+
+### Wiring
+
+### Reflection
