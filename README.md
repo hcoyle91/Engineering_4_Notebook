@@ -8,8 +8,7 @@
 * [String and Loops](#String_and_Loops)
 
 ## Python_Dice_Roller
-. 
-
+* [Back to the top](#Table_of_Contents)
 ### Assignment Description
 
 The purpose of this assignment was to create a program that can automatically roll dice. The program also took user input to decide whether another dice should be rolled, or if the program should exit. The spicy version added complexity by asking the user to specify the number of sides on the dice and the number of dice to be rolled at a time. The user was then asked whether they wanted to roll again with the same settings, change the settings, or exit the program. 
@@ -34,7 +33,7 @@ This assignment was relatively simple, but was challenging because I had not cod
 
 
 ## Python_Calculator
-
+* [Back to the top](#Table_of_Contents)
 ### Assignment Description
 For this assignment I had to prompt the user for two integers as inputs and give the user the sum, quotient, difference, and modulo of those two numbers. However I had to use a function to do this. 
 
@@ -50,7 +49,7 @@ This was a benficial assignment because I learned how to use functions and reali
 
 
 ## Quadratic_Solver
-
+* [Back to the top](#Table_of_Contents)
 ### Assignment_Description
 
 For this assignment I had to make a program that prompted the user for 3 inputs and printed two roots if ithe function had two roots or 1 root if the function had one root or no roots if the function had no roots. I had to offer an option to run the program again and I had to code all this using a function.
@@ -71,7 +70,7 @@ This was a fun assignment overall. My main promblems included not reading the di
 
 
 ## String_and_Loops
-
+* [Back to the top](#Table_of_Contents)
 ### Assignment_Description
 
 For this assignment I had to make a program that takes in a phrase and outputs the letters on their own line with a dash instead of a space. 
