@@ -5,7 +5,7 @@
 * [Python_Dice_Roller](#PythonDiceRoller)
 * [Python_Calculator](#Python_Calculator)
 * [Quadratic Solver](#Quadratic_Solver)
-
+* [String and Loops](#String_and_Loops)
 
 ## Python_Dice_Roller
 . 
