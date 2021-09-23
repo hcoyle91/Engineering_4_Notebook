@@ -56,7 +56,6 @@ For this assignment I had to make a program that prompted the user for 3 inputs 
 
 ### Evidence
 
-![Quadratic tps://user-images.githubusercontent.com/56696954/133629581-2fd6e22a-339d-410e-9cea-f26c9e717492.png)
 
 ### Wiring
 
