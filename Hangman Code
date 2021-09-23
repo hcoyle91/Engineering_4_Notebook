@@ -17,8 +17,8 @@ print(head+armLeft+body+rightArm+body2+leftLeg+rightLeg)
 x = 0
 while (x < len(word)):
     guesse = input("Player2 enter your guesse: ")
-    for x in word:
+    for i in word:
         if (guesse == word[x]):
-            for i in word:
+            for o in word:
                 print("_")
                 
