@@ -1,0 +1,11 @@
+
+
+phrase = input("Enter a phrase to get a list of the letters: ") 
+x = 0
+while (x < len(phrase)):
+    if (phrase[x] == " "):
+        print("-")
+        x = x + 1
+    else:
+        print((phrase[x]))
+        x = x + 1
