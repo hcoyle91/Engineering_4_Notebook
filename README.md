@@ -68,3 +68,23 @@ N/A
 ### Reflection
 
 This was a fun assignment overall. My main promblems included not reading the dirrections and figuring out a little more about functions. I started out with making a function identical to the one made in calulator assignment. But it turns out I needed to use if statements within the function. I also learned the length function which was very useful in determining how many roots there were using an array. Lastly, I didn't thoroughly read the dirrections so I did not see that the asssignment must include an option to solve again. Next time I will make sure to do this so I dont have to go back and change my code so much.
+
+
+## String_and_Loops
+
+### Assignment_Description
+
+For this assignment I had to make a program that takes in a phrase and outputs the letters on their own line with a dash instead of a space. 
+
+### Evidence
+
+![String and loops](https://github.com/hcoyle91/Engineering_4_Notebook/issues/4#issue-1005453681)
+![String and loops](https://user-images.githubusercontent.com/56696954/134517662-f8ac86db-58ed-404a-937e-e41469bd4929.png)
+
+### Wiring
+
+N/A
+
+### Reflection
+
+Although the for loop would have been easier, I used the while loop and an if statment to determine wether the computer should include a dash and not a space. I could have made it smaller by using a for loop or icluding functions on the same line.
