@@ -1,11 +1,11 @@
 
 
-phrase = input("Enter a phrase to get a list of the letters: ") 
-x = 0
+phrase = input("Enter a phrase to get a list of the letters: ")     ## Creates an input variable that take sin a string
+x = 0                                               ## Initializes x as 0
 while (x < len(phrase)):
-    if (phrase[x] == " "):
-        print("-")
+    if (phrase[x] == " "):                          ## While the variable x is less than the length of the string phrase execute the following
+        print("-")                                      ## if # x in string phrase is blank then print the dash and add one to x
         x = x + 1
     else:
-        print((phrase[x]))
+        print((phrase[x]))                              # Print the character at item # x within phrase and add 1 to x
         x = x + 1
