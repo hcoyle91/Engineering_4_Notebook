@@ -1,3 +1,4 @@
+   
 import math
 
 word = input("Hello player one. Make sure player 2 is not around and enter the word")
@@ -13,7 +14,6 @@ body2 = "   |\n"
 leftLeg = "  /"
 rightLeg = " \\"
 def fullBody(counter):
-    if counter = 
     a = head
     b = head + armLeft
     c = head + armLeft + body
@@ -21,20 +21,36 @@ def fullBody(counter):
     e = head + armLeft + body + rightArm + body2
     f = head + armLeft + body + rightArm + body2 + leftLeg
     g = head + armLeft + body + rightArm + body2 + leftLeg
+    if (counter == 1):
+        return a
+    if (counter == 2):
+        return b
+    if (counter == 3):
+        return c
+    if (counter == 4):
+        return d
+    if (counter == 5):
+        return e
+    if (counter == 6):
+        return f
+    if (counter == 7):
+        return g
+    
 
 counter = 0
 
 x = 0
-while (x < len(word)):
-    guesse = input("Player2 enter your guesse: \n")
-    for i in word:
-        if (guesse == word[x]):
-            var = True
-            print("That matched!\n"+word[x])
-            x = x+1
-        else:
-            print("_ ")
-        if (guesse != word[x]):
-            counter = counter+1
-            
-                
+
+#while (x < len(word)):
+guesse = input("Player2 enter your guesse: \n")
+for i in word:
+    if (guesse == word[x]):
+        print (guesse)
+        check = True
+        x = x +1
+    else:
+        check = False
+        x = x+1
+        print("_ ")
+
+        
