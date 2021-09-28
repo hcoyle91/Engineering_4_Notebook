@@ -1,11 +1,12 @@
    
+ 
    
 import math
 
 word = input("Hello player one. Make sure player 2 is not around and enter the word")
 print ("\n" * 5)
 
-print("---"+"┐\n\n\n\n\n")
+print("---"+"┐\n")
 hanger = "---"+"┐"
 head = "   O\n"
 armLeft = "  /"
@@ -14,6 +15,7 @@ rightArm = "\\\n"
 body2 = "   |\n"
 leftLeg = "  /"
 rightLeg = " \\"
+
 def fullBody(counter):
     a = head
     b = head + armLeft
@@ -21,7 +23,7 @@ def fullBody(counter):
     d = head + armLeft + body + rightArm
     e = head + armLeft + body + rightArm + body2
     f = head + armLeft + body + rightArm + body2 + leftLeg
-    g = head + armLeft + body + rightArm + body2 + leftLeg
+    g = head + armLeft + body + rightArm + body2 + leftLeg + rightLeg
     if (counter == 1):
         return a
     if (counter == 2):
@@ -36,9 +38,13 @@ def fullBody(counter):
         return f
     if (counter == 7):
         return g
-    
-
-counter = 0
+        return("The end, player 1 wins.")
+    if (counter >= 7):
+        return g
+        return("The end, player 1 wins.")
+correct = 0
+wrong = 0
+f = 0
 r = 0
 x = 0
 n = 0
@@ -49,8 +55,18 @@ while (f < len(word)):
     for i in word:
         if (guesse == i):
             var = True
+        else:
+            var = False
     if (var == True):
         print("That is in the word! Here is what you have:")
+        correct = correct+1
+        f = f+1
+    else:
+        print("That was wrong. One body part added: \n")
+        wrong = wrong+1
+        print(hanger)
+        print(fullBody(wrong))
+    print("Here is what you have: \n")
     for i in word:
         if (guesse == word[x]):
             print (guesse)
@@ -60,7 +76,15 @@ while (f < len(word)):
         else:
             check = False
             x = x+1
-            r=r+1
             print("_ ")
-    f = f+1        
+    x = 0
+    if (correct == len(word)):
+        print("You win! here is the word: "+word)
+d = 0   
+def checker(d):
+    
+    
+    
+    
+    
     
