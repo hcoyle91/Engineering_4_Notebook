@@ -49,9 +49,11 @@ r = 0
 x = 0
 n = 0
 s = 0
+arr = ["_"]+(["_"]*(len(word)-1))
+print(arr)
 while (f < len(word)):
     var = False
-    guesse = input("Player2 enter your guesse: \n\n\n")
+    guesse = input("Player2 enter your guesse: \n")
     a = 0
     for i in word:
         if (guesse == i):
@@ -70,23 +72,29 @@ while (f < len(word)):
         print(hanger)
         print(fullBody(wrong))
     print("Here is what you have:")
+    
     for i in word:
         if (guesse == word[x]):
             print (guesse)
             check = True
             n = x
             x = x +1
+            arr[x] = guesse
         else:
             check = False
             x = x+1
+            arr[x] = "_"
             print("_ ")
+    print(arr)
+        
     x = 0
     if (correct == len(word)):
         print("Player2 wins! here is the word: "+word)
     if (wrong >= 7):
         print("\n--[ Game Over ]--")
         break
-d = 0  
+d = 0   
+
     
     
     
