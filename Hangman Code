@@ -37,11 +37,11 @@ def fullBody(counter):
     if (counter == 6):
         return f
     if (counter == 7):
-        return g
-        return("The end, player 1 wins.")
+        loss = "The end, player 1 wins."
+        return (g+"     "+loss)
     if (counter >= 7):
-        return g
-        return("The end, player 1 wins.")
+        loss = "The end, player 1 wins."
+        return (g+"     "+loss)
 correct = 0
 wrong = 0
 f = 0
@@ -83,9 +83,10 @@ while (f < len(word)):
     x = 0
     if (correct == len(word)):
         print("Player2 wins! here is the word: "+word)
-d = 0   
-
-    
+    if (wrong >= 7):
+        print("\n--[ Game Over ]--")
+        break
+d = 0  
     
     
     
