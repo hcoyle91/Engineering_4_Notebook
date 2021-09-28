@@ -1,4 +1,5 @@
    
+   
 import math
 
 word = input("Hello player one. Make sure player 2 is not around and enter the word")
@@ -38,19 +39,28 @@ def fullBody(counter):
     
 
 counter = 0
-
+r = 0
 x = 0
-
-#while (x < len(word)):
-guesse = input("Player2 enter your guesse: \n")
-for i in word:
-    if (guesse == word[x]):
-        print (guesse)
-        check = True
-        x = x +1
-    else:
-        check = False
-        x = x+1
-        print("_ ")
-
-        
+n = 0
+s = 0
+while (f < len(word)):
+    var = False
+    guesse = input("Player2 enter your guesse: \n\n\n")
+    for i in word:
+        if (guesse == i):
+            var = True
+    if (var == True):
+        print("That is in the word! Here is what you have:")
+    for i in word:
+        if (guesse == word[x]):
+            print (guesse)
+            check = True
+            n = x
+            x = x +1
+        else:
+            check = False
+            x = x+1
+            r=r+1
+            print("_ ")
+    f = f+1        
+    
