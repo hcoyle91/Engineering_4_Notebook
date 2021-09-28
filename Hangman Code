@@ -1,5 +1,4 @@
    
- 
    
 import math
 
@@ -9,6 +8,7 @@ print ("\n" * 5)
 print("---"+"┐\n")
 hanger = "---"+"┐"
 head = "   O\n"
+head2 = "   O"
 armLeft = "  /"
 body = "|"
 rightArm = "\\\n"
@@ -52,21 +52,24 @@ s = 0
 while (f < len(word)):
     var = False
     guesse = input("Player2 enter your guesse: \n\n\n")
+    a = 0
     for i in word:
         if (guesse == i):
-            var = True
-        else:
-            var = False
+            a = 1
+    if (a == True):
+        var = True
+    if (a != 1):
+        var = False
     if (var == True):
-        print("That is in the word! Here is what you have:")
+        print("\n\n\nThat is in the word!")
         correct = correct+1
         f = f+1
     else:
-        print("That was wrong. One body part added: \n")
+        print("That was wrong. One body part added: ")
         wrong = wrong+1
         print(hanger)
         print(fullBody(wrong))
-    print("Here is what you have: \n")
+    print("Here is what you have:")
     for i in word:
         if (guesse == word[x]):
             print (guesse)
@@ -79,10 +82,9 @@ while (f < len(word)):
             print("_ ")
     x = 0
     if (correct == len(word)):
-        print("You win! here is the word: "+word)
+        print("Player2 wins! here is the word: "+word)
 d = 0   
-def checker(d):
-    
+
     
     
     
