@@ -1,5 +1,5 @@
    
-  
+    
 import math
 
 word = input("Hello player one. Make sure player 2 is not around and enter the word")
@@ -15,7 +15,18 @@ rightArm = "\\\n"
 body2 = "   |\n"
 leftLeg = "  /"
 rightLeg = " \\"
-
+def unique(list1):
+ 
+    # initialize a null list
+    unique_list = []
+     
+    # traverse for all elements
+    for x in list1:
+        # check if exists in unique_list or not
+        if x not in unique_list:
+            unique_list.append(x)
+    return unique_list
+            
 def fullBody(counter):
     a = head
     b = head + armLeft
@@ -42,6 +53,7 @@ def fullBody(counter):
     if (counter >= 7):
         loss = "The end, player 1 wins."
         return (g+"     "+loss)
+
 correct = 0
 wrong = 0
 correctLetter = ['_']*len(word)
@@ -88,9 +100,12 @@ while (f < len(word)):
     print("Here is what you have: \n")
     print(correctLetter)
     x = 0
-    if (correct == len(word)):
+    
+    if (correct == len(unique(word))):
         print("Player2 wins! here is the word: "+word)
+        break
     if (wrong >= 7):
         print("\n--[ Game Over ]--")
         break
-d = 0   
+
+d = 0  
