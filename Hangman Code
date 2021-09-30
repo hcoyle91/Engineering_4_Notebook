@@ -1,4 +1,5 @@
    
+ 
    
 import math
 
@@ -44,13 +45,15 @@ def fullBody(counter):
         return (g+"     "+loss)
 correct = 0
 wrong = 0
+correctLetter = []
 f = 0
 r = 0
 x = 0
 n = 0
+k = ''
 s = 0
-arr = ["_"]+(["_"]*(len(word)-1))
-print(arr)
+arr = (["_"]*(len(word)))
+
 while (f < len(word)):
     var = False
     guesse = input("Player2 enter your guesse: \n")
@@ -58,7 +61,7 @@ while (f < len(word)):
     for i in word:
         if (guesse == i):
             a = 1
-    if (a == True):
+    if (a == 1):
         var = True
     if (a != 1):
         var = False
@@ -71,22 +74,21 @@ while (f < len(word)):
         wrong = wrong+1
         print(hanger)
         print(fullBody(wrong))
-    print("Here is what you have:")
     
     for i in word:
         if (guesse == word[x]):
             print (guesse)
             check = True
-            n = x
+            k = word[x]
+            correctLetter = correctLetter + [k]
             x = x +1
-            arr[x] = guesse
         else:
             check = False
             x = x+1
-            arr[x] = "_"
             print("_ ")
-    print(arr)
-        
+    #print(arr)
+    print("Here is what you have: \n")
+    print(correctLetter)
     x = 0
     if (correct == len(word)):
         print("Player2 wins! here is the word: "+word)
@@ -95,7 +97,4 @@ while (f < len(word)):
         break
 d = 0   
 
-    
-    
-    
     
