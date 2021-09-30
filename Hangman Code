@@ -1,10 +1,9 @@
    
- 
-   
+  
 import math
 
 word = input("Hello player one. Make sure player 2 is not around and enter the word")
-print ("\n" * 5)
+print ("\n" * 50)
 
 print("---"+"┐\n")
 hanger = "---"+"┐"
@@ -45,7 +44,7 @@ def fullBody(counter):
         return (g+"     "+loss)
 correct = 0
 wrong = 0
-correctLetter = []
+correctLetter = ['_']*len(word)
 f = 0
 r = 0
 x = 0
@@ -79,14 +78,13 @@ while (f < len(word)):
         if (guesse == word[x]):
             print (guesse)
             check = True
-            k = word[x]
-            correctLetter = correctLetter + [k]
+            correctLetter[x] = word[x]
+
             x = x +1
         else:
             check = False
             x = x+1
             print("_ ")
-    #print(arr)
     print("Here is what you have: \n")
     print(correctLetter)
     x = 0
@@ -96,5 +94,3 @@ while (f < len(word)):
         print("\n--[ Game Over ]--")
         break
 d = 0   
-
-    
