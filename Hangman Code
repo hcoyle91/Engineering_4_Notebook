@@ -96,7 +96,6 @@ while (f < len(word)):
         else:
             check = False
             x = x+1
-            print("_ ")
     print("Here is what you have: \n")
     print(correctLetter)
     x = 0
