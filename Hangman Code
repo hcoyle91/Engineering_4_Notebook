@@ -1,4 +1,3 @@
-   
 
     
 import math         #imported math library cause I thought I'd need it
@@ -103,7 +102,7 @@ while (f < len(word)):                      # f is incremented by 1 everytime th
     for i in correctLetter:
         outputString = outputString + correctLetter[aa] +" "
         aa = aa +1
-    print(outputString)
+    print(outputString+"\n\n\n"+"_______________________________________________")
   
     x = 0
     
@@ -114,4 +113,4 @@ while (f < len(word)):                      # f is incremented by 1 everytime th
         print("\n--[ Game Over ]--")
         break
 
-d = 0  
+d = 0 
