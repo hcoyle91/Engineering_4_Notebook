@@ -1,5 +1,5 @@
 
-    
+     
 import math         #imported math library cause I thought I'd need it
 
 word = input("Hello player one. Make sure player 2 is not around and enter the word") #labels game takes the variable word as a string input
@@ -87,10 +87,10 @@ while (f < len(word)):                      # f is incremented by 1 everytime th
         print(fullBody(wrong))
     
     for i in word:                                                      #seperate for loop to run through the letters in origonal word
-        if (guesse == word[x]):                                         #
+        if (guesse == word[x]):                                         
             print (guesse)
             check = True
-            correctLetter[x] = word[x]
+            correctLetter[x] = word[x]                # sets an array that is preset as "_" for the length of word to be guesse at word[x] where guesse is right
 
             x = x +1
         else:
@@ -100,17 +100,17 @@ while (f < len(word)):                      # f is incremented by 1 everytime th
     outputString = ""
     aa = 0
     for i in correctLetter:
-        outputString = outputString + correctLetter[aa] +" "
+        outputString = outputString + correctLetter[aa] +" "   #          A string is set to be whatever the array is. This way it looks better          
         aa = aa +1
-    print(outputString+"\n\n\n"+"_______________________________________________")
+    print(outputString+"\n\n\n"+"_______________________________________________")      #just a seperater between guesses
   
     x = 0
     
     if (correct == len(unique(word))):
-        print("Player2 wins! here is the word: "+word)
+        print("Player2 wins! here is the word: "+word)       #if you get a guesse correct as many times as the word is wrong, break the while loop
         break
-    if (wrong >= 7):
+    if (wrong >= 7):                        # if the wrong variable is 7, which is when the body is complete, player 2 loses
         print("\n--[ Game Over ]--")
         break
 
-d = 0 
+d = 0                       # not sure what this is but im scared to delete it
