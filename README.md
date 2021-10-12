@@ -7,6 +7,7 @@
 * [Python_Calculator](#Python_Calculator)
 * [Quadratic Solver](#Quadratic_Solver)
 * [String and Loops](#String_and_Loops)
+* [Hangman Game](#Hangman_Game)
 
 ## Python_Dice_Roller
 * [Back to the top](#Top)
@@ -88,3 +89,23 @@ N/A
 ### Reflection
 
 Although the for loop would have been easier, I used the while loop and an if statment to determine wether the computer should include a dash and not a space. I could have made it smaller by using a for loop or icluding functions on the same line.
+
+
+## Hangman_Game
+* [Back to the top](#Top)
+
+### Assignment_Description
+
+For this assignment I had to create a program that succesfully works as a hangman game for two players. It had to have everything that a normal hangman game has and use a visual representation of the body. 
+
+### Evidence
+
+
+
+### Wiring
+
+N/A
+
+### Reflection
+
+This assignment took me a while because of how messy my code was. It was hard to get help with it when I needed it because my code was so confusing. So, next time, I need to plan out my code better and put in a little extra work as to make it concise and clear and efficient. Also, this is my first python assignment that was not just one function but rather a long proccess. I learned that maybe seudo code would be very benficial to me.
