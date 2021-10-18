@@ -121,9 +121,9 @@ This assignment took me a while because of how messy my code was. It was hard to
 ### Evidence
 
 
-### Wiring
+### Part Link
 
-N/A
+![Link to skateboard](https://cvilleschools.onshape.com/documents/8ad4fd086495715212304f9d/w/44b543475aa9129af2833029/e/be289c7b1f85a5f018b27f3c?renderMode=0&uiState=616d852671a12e39d3c3b6c9)
 
 ### Reflection
 
