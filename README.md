@@ -8,6 +8,7 @@
 * [Quadratic Solver](#Quadratic_Solver)
 * [String and Loops](#String_and_Loops)
 * [Hangman Game](#Hangman_Game)
+* [Skateboard](#Skateboard)
 
 ## Python_Dice_Roller
 * [Back to the top](#Top)
@@ -109,3 +110,20 @@ N/A
 ### Reflection
 
 This assignment took me a while because of how messy my code was. It was hard to get help with it when I needed it because my code was so confusing. So, next time, I need to plan out my code better and put in a little extra work as to make it concise and clear and efficient. Also, this is my first python assignment that was not just one function but rather a long proccess. I learned that maybe seudo code would be very benficial to me.
+
+
+## Skateboard
+* [Back to the top](#Top)
+### Assignment_Description
+
+
+
+### Evidence
+
+
+### Wiring
+
+N/A
+
+### Reflection
+
