@@ -60,7 +60,7 @@ For this assignment I had to make a program that prompted the user for 3 inputs 
 
 ### Evidence
 
-![Quadratic Solver](https://github.com/hcoyle91/Engineering_4_Notebook/issues/3#issue-1005425249)
+![Quadratic Solver](https://github.com/hcoyle91/Engineering_4_Notebook/blob/7da46dbfb64fa784498be89d48edc14250971438/Quadratic%20Solver)
 
 ![Quadratic Solver](https://user-images.githubusercontent.com/56696954/134513839-b5a395ac-a990-4da3-b246-7ceafe3bb1ee.png)
 
