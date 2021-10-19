@@ -123,7 +123,7 @@ For this assignment I had to create a swing arm based off 3 drawings with some d
 
 ### Evidence
 ![Configuration #1](https://github.com/hcoyle91/Engineering_4_Notebook/blob/574947b9f60208457454b733bb0110503a37fa34/Swing%20arm%20config%202.png)
-![Configuration #2]()
+![Configuration #2](https://github.com/hcoyle91/Engineering_4_Notebook/blob/21123c6febb82cfc39c4be0d5e7691560ae96086/swing%20arm%20config%201.png)
 
 ### Part Link
 
