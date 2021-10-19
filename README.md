@@ -8,6 +8,7 @@
 * [Quadratic Solver](#Quadratic_Solver)
 * [String and Loops](#String_and_Loops)
 * [Hangman Game](#Hangman_Game)
+* [Swing Arm](#Swing_Arm)
 * [Skateboard](#Skateboard)
 
 ## Python_Dice_Roller
@@ -110,6 +111,25 @@ N/A
 ### Reflection
 
 This assignment took me a while because of how messy my code was. It was hard to get help with it when I needed it because my code was so confusing. So, next time, I need to plan out my code better and put in a little extra work as to make it concise and clear and efficient. Also, this is my first python assignment that was not just one function but rather a long proccess. I learned that maybe seudo code would be very benficial to me.
+
+
+
+## Swing Arm
+
+* [Back to the top](#Top)
+
+### Assignment_Description
+For this assignment I had to create a swing arm based off 3 drawings with some dimensions and constraints. In order to recieve full credit, I had to make sure there were to variables defining the length, angle, and diameter of the circle, that I could change. I then had to enter the mass for certain materials of my newly made swing arm.
+
+### Evidence
+
+
+### Part Link
+
+
+### Reflection
+
+This project was hard and time consuming. The drawings were precise but because I needed to make configurations, most things needed the right constraits rather than just mesurements. At first, when I finished and tried to change the configuratiojns, it completely messed up the entire swing arm. I had to go back and make sure everything was relative to each other. Another challange was that it was at sometimes hard to find how things were built based on just drawings because if I just got one thing wrong, the mass would be off.
 
 
 ## Skateboard
