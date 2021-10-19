@@ -133,7 +133,7 @@ Configuration #2:
 
 ### Part Link
 
-![Link to Swing arm on Onshape](https://cvilleschools.onshape.com/documents/53745f923252b197bcc4f511/w/bb4d42c4e0848b24960fa052/e/ce94cd0d490ef80f2a243cc9?renderMode=0&uiState=616ec74c5481d67049eccd3d)
+[Link to Swing arm on Onshape](https://cvilleschools.onshape.com/documents/53745f923252b197bcc4f511/w/bb4d42c4e0848b24960fa052/e/ce94cd0d490ef80f2a243cc9?renderMode=0&uiState=616ec74c5481d67049eccd3d)
 
 ### Reflection
 
@@ -153,7 +153,7 @@ For this assignment I had to follow a CAD intro tutorial to build a skateboard. 
 
 ### Part Link
 
-![Link to skateboard on Onshape](https://cvilleschools.onshape.com/documents/8ad4fd086495715212304f9d/w/44b543475aa9129af2833029/e/be289c7b1f85a5f018b27f3c?renderMode=0&uiState=616d852671a12e39d3c3b6c9)
+[Link to skateboard on Onshape](https://cvilleschools.onshape.com/documents/8ad4fd086495715212304f9d/w/44b543475aa9129af2833029/e/be289c7b1f85a5f018b27f3c?renderMode=0&uiState=616d852671a12e39d3c3b6c9)
 
 ### Reflection
 
