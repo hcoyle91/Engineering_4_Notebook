@@ -81,7 +81,7 @@ For this assignment I had to make a program that takes in a phrase and outputs t
 
 ### Evidence
 
-![String and loops](https://github.com/hcoyle91/Engineering_4_Notebook/issues/4#issue-1005453681)
+![String and loops](https://github.com/hcoyle91/Engineering_4_Notebook/blob/46a77b3b627d3b2b35461f3899bb7ee713fd0a06/String%20and%20loops%20code)
 ![String and loops](https://user-images.githubusercontent.com/56696954/134517662-f8ac86db-58ed-404a-937e-e41469bd4929.png)
 
 ### Wiring
