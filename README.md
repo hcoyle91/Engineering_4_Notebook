@@ -44,7 +44,10 @@ This assignment was relatively simple, but was challenging because I had not cod
 For this assignment I had to prompt the user for two integers as inputs and give the user the sum, quotient, difference, and modulo of those two numbers. However I had to use a function to do this. 
 
 ### Evidence 
-![calculator code](https://user-images.githubusercontent.com/56696954/133629581-2fd6e22a-339d-410e-9cea-f26c9e717492.png)
+
+[Calculator code](https://github.com/hcoyle91/Engineering_4_Notebook/blob/f3f58cea85cc076b055f1b8116edd3728a5aaac2/Caclulator.py)
+
+![calculator](https://user-images.githubusercontent.com/56696954/133629581-2fd6e22a-339d-410e-9cea-f26c9e717492.png)
 
 ### Wiring
 N/A
