@@ -19,6 +19,8 @@ The purpose of this assignment was to create a program that can automatically ro
 
 ### Evidence 
 
+[Dice roller code](https://github.com/hcoyle91/Engineering_4_Notebook/blob/651558c1388b116f6b990f86defce5e58e8503f5/dice_roller.py)
+
 Vanilla version:
 
 ![Screenshot 2021-09-10 3 15 26 PM](https://user-images.githubusercontent.com/89222808/133513775-a3eafb43-f836-4e4f-8aa6-e28ca584901f.png)
