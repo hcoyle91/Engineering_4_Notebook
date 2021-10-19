@@ -60,7 +60,7 @@ For this assignment I had to make a program that prompted the user for 3 inputs 
 
 ### Evidence
 
-![Quadratic Solver](https://github.com/hcoyle91/Engineering_4_Notebook/blob/7da46dbfb64fa784498be89d48edc14250971438/Quadratic%20Solver)
+![Quadratic Solver code link](https://github.com/hcoyle91/Engineering_4_Notebook/blob/7da46dbfb64fa784498be89d48edc14250971438/Quadratic%20Solver)
 
 ![Quadratic Solver](https://user-images.githubusercontent.com/56696954/134513839-b5a395ac-a990-4da3-b246-7ceafe3bb1ee.png)
 
@@ -81,7 +81,7 @@ For this assignment I had to make a program that takes in a phrase and outputs t
 
 ### Evidence
 
-![String and loops](https://github.com/hcoyle91/Engineering_4_Notebook/blob/46a77b3b627d3b2b35461f3899bb7ee713fd0a06/String%20and%20loops%20code)
+![String and loops code link](https://github.com/hcoyle91/Engineering_4_Notebook/blob/46a77b3b627d3b2b35461f3899bb7ee713fd0a06/String%20and%20loops%20code)
 ![String and loops](https://user-images.githubusercontent.com/56696954/134517662-f8ac86db-58ed-404a-937e-e41469bd4929.png)
 
 ### Wiring
@@ -101,6 +101,8 @@ Although the for loop would have been easier, I used the while loop and an if st
 For this assignment I had to create a program that succesfully works as a hangman game for two players. It had to have everything that a normal hangman game has and use a visual representation of the body. 
 
 ### Evidence
+
+[Hangman Code link](https://github.com/hcoyle91/Engineering_4_Notebook/blob/75dde71ef95aed83a23c6a8d0d55649973db8ee8/Hangman%20Code)
 
 ![Hangman Game](https://github.com/hcoyle91/Engineering_4_Notebook/blob/efadc078cb9588c23be128efe12fb4a166712d94/hangman%20code.png)
 
