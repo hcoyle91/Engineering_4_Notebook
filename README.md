@@ -122,7 +122,8 @@ This assignment took me a while because of how messy my code was. It was hard to
 For this assignment I had to create a swing arm based off 3 drawings with some dimensions and constraints. In order to recieve full credit, I had to make sure there were to variables defining the length, angle, and diameter of the circle, that I could change. I then had to enter the mass for certain materials of my newly made swing arm.
 
 ### Evidence
-
+![Configuration #1](https://github.com/hcoyle91/Engineering_4_Notebook/blob/574947b9f60208457454b733bb0110503a37fa34/Swing%20arm%20config%202.png)
+![Configuration #2]()
 
 ### Part Link
 
