@@ -177,8 +177,7 @@ For this assignment I had to create a series of functional lego bricks using con
 ### Evidence
 
 <img src="https://github.com/hcoyle91/Engineering_4_Notebook/blob/c1c7ba2a7e49849af011d7bcde7095fcb9e67794/duck%203.png" alt="" data-canonical-src="https://gyazo.com/eb5c5741b6a9a16c692170a41a49c858.png" width="350" height="400" />     <img src="https://github.com/hcoyle91/Engineering_4_Notebook/blob/f225c07e3628fc0826004b559e9948180bde147d/ship.png" alt="" data-canonical-src="https://gyazo.com/eb5c5741b6a9a16c692170a41a49c858.png" width="350" height="400" />
-<img src="https://github.com/hcoyle91/Engineering_4_Notebook/blob/d928899e13408f8fd8fce89d6873369d1c6988a7/duck%201.png" alt="" data-canonical-src="https://gyazo.com/eb5c5741b6a9a16c692170a41a49c858.png" width="600" height="400" />
- <img src="https://github.com/hcoyle91/Engineering_4_Notebook/blob/9b3632809568e57cb8cb063e5f6c47091d438c08/duck%202.png" alt="" data-canonical-src="https://gyazo.com/eb5c5741b6a9a16c692170a41a49c858.png" width="600" height="400" />
+<img src="https://github.com/hcoyle91/Engineering_4_Notebook/blob/d928899e13408f8fd8fce89d6873369d1c6988a7/duck%201.png" alt="" data-canonical-src="https://gyazo.com/eb5c5741b6a9a16c692170a41a49c858.png" width="600" height="400" />  <img src="https://github.com/hcoyle91/Engineering_4_Notebook/blob/9b3632809568e57cb8cb063e5f6c47091d438c08/duck%202.png" alt="" data-canonical-src="https://gyazo.com/eb5c5741b6a9a16c692170a41a49c858.png" width="600" height="400" />
  
 
 ### Part Link
