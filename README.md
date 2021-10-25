@@ -172,7 +172,7 @@ This project was fun because I built a skateboard. It was fairly easy and simple
 * [Back to the top](#Top)
 
 ### Assignment_Description
-
+For this assignment I had to create a series of functional lego bricks using configurations and the snap mate. Then, using the bricks, I made a small duck and messed around and made a ship. I then had to create a complete instruction manual using drawings and BOM tables for the duck.
 
 ### Evidence
 
@@ -181,7 +181,9 @@ This project was fun because I built a skateboard. It was fairly easy and simple
 
 ### Part Link
 
-[Link to Duck on Onshape]()
+[Link to Duck on Onshape](https://cvilleschools.onshape.com/documents/364d4c61a1e277d6125d86fb/w/a92d60206453172e3fd0164b/e/189d09167cffb32a5af74697?renderMode=0&rightPanel=explodedViewPanel&uiState=6176b4719d97c9185b2bb5e1)
 
 ### Reflection
+
+I really enjoyed this asignment. It really showed the power of configurations; I was able to create a configuration table for color, name, size, and brick type. In order to make sure I could mate the bricks together later in an assembly, I created mate connectors from the original sketch: these mate connectors were centered around a circle which fit perfectly into the bottom of another brick. So, later I could snap mate the bricks together. I didn't face many challenges but also really enjoyed creating the drawings. I learned the exploding tool and how you can make different views in drawing based off different exploded views. I also leearned the specifics of drawings' tools an how to accurately represent my work.
 
