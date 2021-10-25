@@ -168,7 +168,7 @@ For this assignment I had to follow a CAD intro tutorial to build a skateboard. 
 This project was fun because I built a skateboard. It was fairly easy and simple; however, I kept wanting to go ahead but had to stick to the instructions or else I would miss small steps and mess up the mass. I did learn a couple new tools: the replicate tool and how wheel bearings work. The replicate tool is very helpful for things like screws and nuts that need to be mated in a lot of places.
 
 
-## Lego Duck
+## Lego_Duck
 * [Back to the top](#Top)
 
 ### Assignment_Description
