@@ -176,7 +176,7 @@ For this assignment I had to create a series of functional lego bricks using con
 
 ### Evidence
 
-![Duck #1]()
+![Duck #1](https://github.com/hcoyle91/Engineering_4_Notebook/blob/d928899e13408f8fd8fce89d6873369d1c6988a7/duck%201.png)
 
 
 ### Part Link
