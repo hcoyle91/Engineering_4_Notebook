@@ -1,0 +1,115 @@
+     
+import math         #imported math library cause I thought I'd need it
+
+word = input("Hello player one. Make sure player 2 is not around and enter the word") #labels game takes the variable word as a string input
+print ("\n" * 50)       #clears the screen
+
+print("---"+"┐\n")      #The following code defines a variable for each body part to be added
+hanger = "---"+"┐"
+head = "   O\n"
+head2 = "   O"
+armLeft = "  /"
+body = "|"
+rightArm = "\\\n"
+body2 = "   |\n"
+leftLeg = "  /"
+rightLeg = " \\"
+def unique(list1):                 #creates a function that takes in an array and outputs the same array except without repeating letters
+ 
+    # initialize a null list
+    unique_list = []  
+     
+    # traverse for all elements
+    for x in list1:
+        # check if exists in unique_list or not
+        if x not in unique_list:
+            unique_list.append(x)
+    return unique_list
+            
+def fullBody(counter):                          #Creates a function that takes in counter(int) and out puts the corresponding set of body parts
+    a = head                                    # counter is linked to wrong variable which is increased by one when the player guesses wrong
+    b = head + armLeft
+    c = head + armLeft + body
+    d = head + armLeft + body + rightArm
+    e = head + armLeft + body + rightArm + body2
+    f = head + armLeft + body + rightArm + body2 + leftLeg
+    g = head + armLeft + body + rightArm + body2 + leftLeg + rightLeg
+    if (counter == 1):
+        return a
+    if (counter == 2):
+        return b
+    if (counter == 3):
+        return c
+    if (counter == 4):
+        return d
+    if (counter == 5):
+        return e
+    if (counter == 6):
+        return f
+    if (counter == 7):
+        loss = "The end, player 1 wins."
+        return (g+"     "+loss)
+    if (counter >= 7):
+        loss = "The end, player 1 wins."
+        return (g+"     "+loss)
+
+correct = 0                                         #DEfines all my variables that I use in my while loop (half of them remain unused)
+wrong = 0
+correctLetter = ['_']*len(word)        
+f = 0
+r = 0
+x = 0
+n = 0
+k = ''
+s = 0
+arr = (["_"]*(len(word)))
+
+while (f < len(word)):                      # f is incremented by 1 everytime the while loop runs through and the player gets a correct letter
+    var = False
+    guesse = input("Player2 enter your guesse: \n")
+    a = 0
+    for i in word:                                          #checks if every letter in word is the letter gusees as an input 
+        if (guesse == i):
+            a = 1
+    if (a == 1):
+        var = True
+    if (a != 1):
+        var = False
+    if (var == True):
+        print("\n\n\nThat is in the word!")                     #add 1 to correct if it is in the word
+        correct = correct+1
+        f = f+1
+    else:
+        print("That was wrong. One body part added: ")                      #else add 1 to wrong and call the function fullBody for the number 'wrong'
+        wrong = wrong+1
+        print(hanger)
+        print(fullBody(wrong))
+    
+    for i in word:                                                      #seperate for loop to run through the letters in origonal word
+        if (guesse == word[x]):                                         
+            print (guesse)
+            check = True
+            correctLetter[x] = word[x]                # sets an array that is preset as "_" for the length of word to be guesse at word[x] where guesse is right
+
+            x = x +1
+        else:
+            check = False
+            x = x+1
+    print("Here is what you have: \n")
+    outputString = ""
+    aa = 0
+    for i in correctLetter:
+        outputString = outputString + correctLetter[aa] +" "   #          A string is set to be whatever the array is. This way it looks better          
+        aa = aa +1
+    print(outputString+"\n\n\n"+"_______________________________________________")      #just a seperater between guesses
+  
+    x = 0
+    
+    if (correct == len(unique(word))):
+        print("Player2 wins! here is the word: "+word)       #if you get a guesse correct as many times as the word is wrong, break the while loop
+        break
+    if (wrong >= 7):                        # if the wrong variable is 7, which is when the body is complete, player 2 loses
+        print("\n--[ Game Over ]--")
+        break
+
+d = 0                       # not sure what this is but im scared to delete it
