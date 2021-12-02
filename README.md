@@ -195,7 +195,32 @@ I really enjoyed this asignment. It really showed the power of configurations; I
 ### Description: 
 
 ### Evidence: 
+Code:
+# LED blinking program - (ENGR4)
+#Written by Henry Coyle
+#November 29th 2021
 
+import RPi.GPIO as GPIO
+import time
+GPIO.setmode(GPIO.BCM)
+LED1=20
+LED2=21
+
+GPIO.setup(LED1, GPIO.OUT, initial=GPIO.LOW)
+GPIO.setup(LED2, GPIO.OUT, initial=GPIO.LOW)
+
+while True:
+	GPIO.setwarnings(False)
+	GPIO.output(LED2, GPIO.HIGH)
+	print('LED2 on')
+	time.sleep(1.0)
+	GPIO.output(LED2, GPIO.LOW)
+	print('LED2 off')
+	GPIO.output(LED1, GPIO.HIGH)
+	print('LED1 on')
+	time.sleep(1.0)
+	GPIO.output(LED1, GPIO.LOW)
+	print('LED1 off')
 
 https://user-images.githubusercontent.com/56696954/144445381-9dba2712-172d-4cbf-9b8f-09a9061f5f58.mp4
 
