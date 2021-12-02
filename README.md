@@ -11,7 +11,7 @@
 * [Swing Arm](#Swing_Arm)
 * [Skateboard](#Skateboard)
 * [Lego Duck](#Lego_Duck)
-* [Blinking LED](#Blinking_LED)
+* [Blinking LED](https://github.com/hcoyle91/Engineering_4_Notebook/blob/main/README.md#blinking-led)
 
 ## Python_Dice_Roller
 * [Back to the top](#Top)
