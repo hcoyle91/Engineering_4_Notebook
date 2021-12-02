@@ -196,7 +196,10 @@ I really enjoyed this asignment. It really showed the power of configurations; I
 
 ### Evidence: 
 
-<img src="https://github.com/hcoyle91/Engineering_4_Notebook/blob/4b25dcff5d9d11e0f2820b79968f6a1e935d2562/LED%20video_Trim_Trim.mp4" width="350" height="400" />
+
+https://user-images.githubusercontent.com/56696954/144445381-9dba2712-172d-4cbf-9b8f-09a9061f5f58.mp4
+
+
 
 ### Wiring: 
 
