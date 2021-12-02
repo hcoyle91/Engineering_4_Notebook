@@ -1,0 +1,13 @@
+# safe_restart_shutdown_interrupt_Pi.py
+#
+# Raspberry Pi Safe Restart and Shutdown Python Script
+# WRITTEN BY: Matthew Miller @ CHS
+# MODIFIED: 11/30/2021
+# DESCRIPTION: This python script uses a button to safely
+# reboot/shutdown your RPi. A momentary press reboots the pi,
+# holding the button shuts the RPi down. 
+#
+# Based on code from the following tutorial:
+#https://learn.sparkfun.com/tutorials/
+#raspberry-pi-safe-reboot-and-shutdown-button/all
+#---
