@@ -194,33 +194,35 @@ I really enjoyed this asignment. It really showed the power of configurations; I
 
 ### Description: 
 
+For this assignment I had to make two LED's of different colors to bink back and forth. I used Rasberry Pi and an Ada fruit t-cobbler.
+
 ### Evidence: 
 Code:
 #### LED blinking program - (ENGR4)
 #Written by Henry Coyle
 #November 29th 2021
 
-import RPi.GPIO as GPIO
+import RPi.GPIO as GPIO		// imports GPIO library
 
-import time
+import time		// Imports library that allows me to make the program pause for a few moments
 
-GPIO.setmode(GPIO.BCM)
+GPIO.setmode(GPIO.BCM)		// Makes the GPIO read the pins as BCM scale
 
-LED1=20
+LED1=20	// Defines these two variables, LED1 and 2 as there own pins
 
 LED2=21
 
-GPIO.setup(LED1, GPIO.OUT, initial=GPIO.LOW)
+GPIO.setup(LED1, GPIO.OUT, initial=GPIO.LOW)		//Initializes both LED's as off or low
 
 GPIO.setup(LED2, GPIO.OUT, initial=GPIO.LOW)
 
 
-while True:
-	GPIO.setwarnings(False)
+while True:		//Starts loop automatically
+	GPIO.setwarnings(False)			// Sets the automatic warnings to hidden
 	
 	GPIO.output(LED2, GPIO.HIGH)
 	
-	print('LED2 on')
+	print('LED2 on')			// Turns on one LED, pauses that repeats with the other. It prints 'on'when led is on and vice versa.
 	
 	time.sleep(1.0)
 	
@@ -248,3 +250,4 @@ https://user-images.githubusercontent.com/56696954/144445381-9dba2712-172d-4cbf-
 
 ### Reflection: 
  
+My biggest challenges within this assignment was to learn more about the Rasberry pi's codeing language. The wiring was fairly easy (2 LED's, 2 220 resistors, and some jumber wires). The code was easy once I got used to using GPIO methods as I only needed to make onje while loop.
