@@ -11,6 +11,7 @@
 * [Swing Arm](#Swing_Arm)
 * [Skateboard](#Skateboard)
 * [Lego Duck](#Lego_Duck)
+* [Blinking LED](#Blinking LED)
 
 ## Python_Dice_Roller
 * [Back to the top](#Top)
