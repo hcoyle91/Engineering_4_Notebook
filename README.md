@@ -11,6 +11,7 @@
 * [Swing Arm](#Swing_Arm)
 * [Skateboard](#Skateboard)
 * [Lego Duck](#Lego_Duck)
+* [Blinking LED](https://github.com/hcoyle91/Engineering_4_Notebook/blob/main/README.md#blinking-led)
 
 ## Python_Dice_Roller
 * [Back to the top](#Top)
@@ -188,3 +189,21 @@ For this assignment I had to create a series of functional lego bricks using con
 
 I really enjoyed this asignment. It really showed the power of configurations; I was able to create a configuration table for color, name, size, and brick type. In order to make sure I could mate the bricks together later in an assembly, I created mate connectors from the original sketch: these mate connectors were centered around a circle which fit perfectly into the bottom of another brick. So, later I could snap mate the bricks together. I didn't face many challenges but also really enjoyed creating the drawings. I learned the exploding tool and how you can make different views in drawing based off different exploded views. I also leearned the specifics of drawings' tools an how to accurately represent my work.
 
+## Blinking LED
+* [Back to the top](#Top)
+
+### Description: 
+
+### Evidence: 
+
+
+https://user-images.githubusercontent.com/56696954/144445381-9dba2712-172d-4cbf-9b8f-09a9061f5f58.mp4
+
+
+
+### Wiring: 
+
+<img src="https://github.com/hcoyle91/Engineering_4_Notebook/blob/5edf260b5c224ff4faea8f8490656305ea283c0c/LED%20Wiring%201.jpeg" width="350" height="400" />  <img src="https://github.com/hcoyle91/Engineering_4_Notebook/blob/5edf260b5c224ff4faea8f8490656305ea283c0c/LED%20wiring%202.jpeg" width="350" height="400" />  
+
+### Reflection: 
+ 
