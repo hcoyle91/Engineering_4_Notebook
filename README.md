@@ -259,8 +259,15 @@ My biggest challenges within this assignment was to learn more about the Rasberr
 
 ### Description:
 
+For this assignment I had to wire a button and make a program where the Raspberry pi is restarted when I press it once and shutdown when I held the button.
+
 ### Evidence: 
+
+
 
 ### Wiring: 
 
+
+
 ### Reflection: 
+
