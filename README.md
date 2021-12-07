@@ -12,6 +12,7 @@
 * [Skateboard](#Skateboard)
 * [Lego Duck](#Lego_Duck)
 * [Blinking LED](https://github.com/hcoyle91/Engineering_4_Notebook/blob/main/README.md#blinking-led)
+* [Rasberry Pi Safe Shutdown]()
 
 ## Python_Dice_Roller
 * [Back to the top](#Top)
@@ -251,3 +252,15 @@ https://user-images.githubusercontent.com/56696954/144445381-9dba2712-172d-4cbf-
 ### Reflection: 
  
 My biggest challenges within this assignment was to learn more about the Rasberry pi's codeing language. The wiring was fairly easy (2 LED's, 2 220 resistors, and some jumber wires). The code was easy once I got used to using GPIO methods as I only needed to make onje while loop.
+
+## Rasberry Pi Safe Shutdown
+
+* [Back to the top](#Top)
+
+### Description:
+
+### Evidence: 
+
+### Wiring: 
+
+### Reflection: 
