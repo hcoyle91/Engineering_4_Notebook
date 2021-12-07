@@ -1,0 +1,15 @@
+import RPi.GPIO as GPIO
+import time
+GPIO.setmode(GPIO.BCM) 
+
+led1 = 20
+led2 = 21
+counter = 10
+GPIO.setup(led1, GPIO.OUT, initial=GPIO.LOW)
+GPIO.setup(led2, GPIO.OUT, initial=GPIO.LOW)
+
+while True:
+	GPIO.setwarnings(false)
+	print('LED 1 is on')
+	GPIO.output(led1, GPIO.HIGH)
+
