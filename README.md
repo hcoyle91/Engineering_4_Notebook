@@ -12,7 +12,7 @@
 * [Skateboard](#Skateboard)
 * [Lego Duck](#Lego_Duck)
 * [Blinking LED](https://github.com/hcoyle91/Engineering_4_Notebook/blob/main/README.md#blinking-led)
-* [Rasberry Pi Safe Shutdown]()
+* [Rasberry Pi Safe Shutdown](https://github.com/hcoyle91/Engineering_4_Notebook/blob/main/README.md#rasberry-pi-safe-shutdown)
 
 ## Python_Dice_Roller
 * [Back to the top](#Top)
