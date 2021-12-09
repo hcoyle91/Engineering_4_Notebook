@@ -267,8 +267,9 @@ For this assignment I had to wire a button and make a program where the Raspberr
 https://user-images.githubusercontent.com/56696954/145420749-08e04c66-38ac-42b6-a5a5-4c127a0ffa7f.mp4
 
 
-### Wiring: 
-
+### Wiring/Code: 
+Code:
+https://github.com/hcoyle91/Engineering_4_Notebook/blob/fa7890833356ede25112181d7adb84aa8b329ef3/Shutdown%20code
 <img src="https://github.com/hcoyle91/Engineering_4_Notebook/blob/553e5f39970ecea17b9d345aab84a840a0cca2f7/shutdown%20wiring.jpeg" width="350" height="400" />  <img src="https://github.com/hcoyle91/Engineering_4_Notebook/blob/553e5f39970ecea17b9d345aab84a840a0cca2f7/shutdown%20wiring%202.jpeg" width="350" height="400" />  
 
 ### Reflection: 
