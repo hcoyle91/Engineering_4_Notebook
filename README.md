@@ -264,10 +264,14 @@ For this assignment I had to wire a button and make a program where the Raspberr
 ### Evidence: 
 
 
+https://user-images.githubusercontent.com/56696954/145420749-08e04c66-38ac-42b6-a5a5-4c127a0ffa7f.mp4
 
-### Wiring: 
 
+### Wiring/Code: 
+Code:
+https://github.com/hcoyle91/Engineering_4_Notebook/blob/fa7890833356ede25112181d7adb84aa8b329ef3/Shutdown%20code
 <img src="https://github.com/hcoyle91/Engineering_4_Notebook/blob/553e5f39970ecea17b9d345aab84a840a0cca2f7/shutdown%20wiring.jpeg" width="350" height="400" />  <img src="https://github.com/hcoyle91/Engineering_4_Notebook/blob/553e5f39970ecea17b9d345aab84a840a0cca2f7/shutdown%20wiring%202.jpeg" width="350" height="400" />  
 
 ### Reflection: 
+The wiring was very simple for this project: I only needed a jumper froom the button to ground and to a pin. The code was provided by my teacher and was difficu;t to understand at first. The next step in this assignment is to make this program run in the backround while I can work on other projects. That was it will be a usefull and quick way to shutdown or restart without typing it out.
 
