@@ -19,7 +19,7 @@ accel, mag = lsm303.read()
 accel_x, accel_y, accel_z = accel
 mag_x, mag_y, mag_z = mag
    
-
+disp = Adafruit_SSD1306.SSD1306_128_64(rst=RST, i2c_address=0x3d)
 disp.begin()
 disp.clear()
 disp.display()
