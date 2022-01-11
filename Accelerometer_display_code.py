@@ -32,9 +32,9 @@ draw = ImageDraw.Draw(image)
 font = ImageFont.load_default()
 
 while True:
-  draw.text((10, top),    accel_x,  font=font, fill=255)
-  draw.text((25, top), accel_y, font=font, fill=255)
-  draw.text((40, top), accel_y, font=font, fill=255)
+  draw.text((10, 2),    accel_x,  font=font, fill=255)
+  draw.text((25, 2), accel_y, font=font, fill=255)
+  draw.text((40, 2), accel_y, font=font, fill=255)
 
 
 # draw.text((x, top),    'Hello',  font=font, fill=255)
