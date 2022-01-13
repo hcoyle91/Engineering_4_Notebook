@@ -33,10 +33,11 @@ draw.rectangle((0,0,width,height), outline=0, fill=0)
 font = ImageFont.load_default()
 
 while True:
+   accel, mag = lsm303.read()
    draw.rectangle((0,0,width,height), outline=0, fill=0)
    draw.text((10, 2),f"x: {accel_x}",  font=font, fill=255)
-   draw.text((25, 2),f"y: {accel_y}", font=font, fill=255)
-   draw.text((40, 2),f"z: {accel_z}", font=font, fill=255)
+   draw.text((50, 2),f"y: {accel_y}", font=font, fill=255)
+   draw.text((100, 2),f"z: {accel_z}", font=font, fill=255)
    disp.image(image)
    disp.display()
    
