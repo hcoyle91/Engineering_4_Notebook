@@ -16,7 +16,7 @@ lsm303 = Adafruit_LSM303.LSM303()
 # Read the X, Y, Z axis acceleration values and print them.
 accel, mag = lsm303.read()
 # Grab the X, Y, Z components from the reading and print them out.
-accel_x, accel_y, accel_z = accel
+
 mag_x, mag_y, mag_z = mag
 
 disp = Adafruit_SSD1306.SSD1306_128_64(rst=RST, i2c_address=0x3d)
@@ -34,6 +34,7 @@ font = ImageFont.load_default()
 top = disp.height
 while True:
    accel, mag = lsm303.read()
+   accel_x, accel_y, accel_z = accel
    draw.rectangle((0,0,width,height), outline=0, fill=0)
    draw.text((10, top/2),f"x: {accel_x}",  font=font, fill=255)
    draw.text((50, top/3),f"y: {accel_y}", font=font, fill=255)
