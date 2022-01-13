@@ -282,8 +282,9 @@ The wiring was very simple for this project: I only needed a jumper froom the bu
 
 ### Description:
 
-### Evidence:
+For this assignment I had to display the readings of an accelerometer on the OLED display as x, y, and z readings. I also had to make sure the readings were in Meters per second and rounded.
 
+### Evidence:
 
 https://user-images.githubusercontent.com/56696954/149359693-a00a65ba-f991-44f3-8367-deaa6a7644b1.MOV
 
