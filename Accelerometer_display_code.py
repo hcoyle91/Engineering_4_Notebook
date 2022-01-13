@@ -28,14 +28,16 @@ height = disp.height
 image = Image.new('1', (width, height))
 
 draw = ImageDraw.Draw(image)
+draw.rectangle((0,0,width,height), outline=0, fill=0)
 
 font = ImageFont.load_default()
 
 while True:
-  draw.text((10, 2),f"x: {accel_x}",  font=font, fill=255)
-  draw.text((25, 2),f"y: {accel_y}", font=font, fill=255)
-  draw.text((40, 2),f"z: {accel_z}", font=font, fill=255)
-
+   draw.rectangle((0,0,width,height), outline=0, fill=0)
+   draw.text((10, 2),f"x: {accel_x}",  font=font, fill=255)
+   draw.text((25, 2),f"y: {accel_y}", font=font, fill=255)
+   draw.text((40, 2),f"z: {accel_z}", font=font, fill=255)
+   
 
 # draw.text((x, top),    'Hello',  font=font, fill=255)
 # draw.text((x, top+20), 'World!', font=font, fill=255)
