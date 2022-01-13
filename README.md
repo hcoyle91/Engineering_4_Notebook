@@ -287,13 +287,13 @@ The wiring was very simple for this project: I only needed a jumper froom the bu
 
 https://user-images.githubusercontent.com/56696954/149359693-a00a65ba-f991-44f3-8367-deaa6a7644b1.MOV
 
+### Wiring/Code:
 
 #### Code:
 
 #### Wiring:
-<img src="https://user-images.githubusercontent.com/56696954/149358190-87279a71-d2c1-4d99-acf7-2c652065cc2a.jpeg" width="350" height="400" /><img src="https://user-images.githubusercontent.com/56696954/149358208-66d65f79-0f33-4c0a-834e-7d600d58f13f.jpeg" width="350" height="400" />
+<img src="https://user-images.githubusercontent.com/56696954/149358190-87279a71-d2c1-4d99-acf7-2c652065cc2a.jpeg" width="350" height="400" />     <img src="https://user-images.githubusercontent.com/56696954/149358208-66d65f79-0f33-4c0a-834e-7d600d58f13f.jpeg" width="350" height="400" />
 
-### Wiring/Code:
 
 ### Reflection:
 
