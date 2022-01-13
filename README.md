@@ -287,7 +287,7 @@ The wiring was very simple for this project: I only needed a jumper froom the bu
 #### Code:
 
 #### Wiring:
-![623A6841-525C-4505-874B-2A54D500C0CE](https://user-images.githubusercontent.com/56696954/149358190-87279a71-d2c1-4d99-acf7-2c652065cc2a.jpeg)
+<img src="https://user-images.githubusercontent.com/56696954/149358190-87279a71-d2c1-4d99-acf7-2c652065cc2a.jpeg" width="600" height="400" />
 ![4255ACAB-F4AB-4C57-9E30-B323A903E10E](https://user-images.githubusercontent.com/56696954/149358208-66d65f79-0f33-4c0a-834e-7d600d58f13f.jpeg)
 
 ### Wiring/Code:
