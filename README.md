@@ -13,6 +13,7 @@
 * [Lego Duck](#Lego_Duck)
 * [Blinking LED](https://github.com/hcoyle91/Engineering_4_Notebook/blob/main/README.md#blinking-led)
 * [Rasberry Pi Safe Shutdown](https://github.com/hcoyle91/Engineering_4_Notebook/blob/main/README.md#rasberry-pi-safe-shutdown)
+* [Accelerometer With display]()
 
 ## Python_Dice_Roller
 * [Back to the top](#Top)
@@ -274,4 +275,20 @@ https://github.com/hcoyle91/Engineering_4_Notebook/blob/fa7890833356ede25112181d
 
 ### Reflection: 
 The wiring was very simple for this project: I only needed a jumper froom the button to ground and to a pin. The code was provided by my teacher and was difficu;t to understand at first. The next step in this assignment is to make this program run in the backround while I can work on other projects. That was it will be a usefull and quick way to shutdown or restart without typing it out.
+
+## Accelerometer with Display
+
+* [Back to the top](#Top)
+
+### Description:
+
+### Evidence:
+
+#### Code:
+
+#### Wiring:
+
+### Wiring/Code:
+
+### Reflection:
 
