@@ -36,9 +36,9 @@ while True:
    accel, mag = lsm303.read()
    accel_x, accel_y, accel_z = accel
    draw.rectangle((0,0,width,height), outline=0, fill=0)
-   xCoor = {round(accel_x/109.69, 2)}
-   yCoor = {round(accel_y/109.69, 2)}
-   zCoor = {round(accel_z/109.69, 2)}
+   xCoor = {round(accel_x/109.69, 0)}
+   yCoor = {round(accel_y/109.69, 0)}
+   zCoor = {round(accel_z/109.69, 0)}
    draw.ellipse((xCoor, yCoor, xCoor+10, yCoor+10), outline=255, fill=0) 
    disp.image(image)
    disp.display()
