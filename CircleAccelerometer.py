@@ -39,7 +39,7 @@ while True:
    yCoor = round(accel_x/109.69, 0)
    xCoor = round(accel_y/109.69, 0)
   ## zCoor = round(accel_z/109.69, 0)
-   draw.ellipse((xCoor, yCoor, xCoor+2, yCoor+3), outline=255, fill=0) 
+   draw.ellipse((xCoor, yCoor, xCoor+10, yCoor+10), outline=255, fill=0) 
    disp.image(image)
    disp.display()
    
