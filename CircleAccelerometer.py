@@ -38,10 +38,10 @@ while True:
    draw.rectangle((0,0,width,height), outline=0, fill=0)
    yCoor = round((accel_x/109.69)+60, 0)
    xCoor = round((accel_y/109.69)+30, 0)
-  ## zCoor = round(accel_z/109.69, 0)
    draw.ellipse((-xCoor, -yCoor, -xCoor+10, -yCoor+10), outline=255, fill=0) 
    disp.image(image)
    disp.display()
+   time.sleep(.1)
    
 
 # draw.text((x, top),    'Hello',  font=font, fill=255)
