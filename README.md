@@ -14,6 +14,7 @@
 * [Blinking LED](https://github.com/hcoyle91/Engineering_4_Notebook/blob/main/README.md#blinking-led)
 * [Rasberry Pi Safe Shutdown](https://github.com/hcoyle91/Engineering_4_Notebook/blob/main/README.md#rasberry-pi-safe-shutdown)
 * [Accelerometer With display](https://github.com/hcoyle91/Engineering_4_Notebook/blob/main/README.md#accelerometer-with-display)
+* [Circle moving with Accelerometer values]()
 
 ## Python_Dice_Roller
 * [Back to the top](#Top)
@@ -301,3 +302,5 @@ https://github.com/hcoyle91/Engineering_4_Notebook/blob/31a9199929374898a407a5b3
 ### Reflection:
 
 The main problems I faced in this project was with the figuring out how to round the numbers that appeared on the screen and determining how to combine the accelerometer code and the OLED screen code. I used an outside function to round the numbers to the 100th decimal place and used a while loop to continually update the numbers being showe on the scree. I quickly figured out that the numbers wrote themselves over the previous numbers. So, in order to reset the screen after every loop, I had to print a black screen over everything at the begining of the while loop. This was a cool project and I am planning on using the accelerometer in me and Asad's upcoming pi project.
+
+## Circle moving with Accelerometer values
