@@ -292,6 +292,8 @@ https://user-images.githubusercontent.com/56696954/149359693-a00a65ba-f991-44f3-
 
 #### Code:
 
+https://github.com/hcoyle91/Engineering_4_Notebook/blob/31a9199929374898a407a5b3c298a2b65c9e2994/Accelerometer_display_code.py
+
 #### Wiring:
 <img src="https://user-images.githubusercontent.com/56696954/149358190-87279a71-d2c1-4d99-acf7-2c652065cc2a.jpeg" width="350" height="400" />     <img src="https://user-images.githubusercontent.com/56696954/149358208-66d65f79-0f33-4c0a-834e-7d600d58f13f.jpeg" width="350" height="400" />
 
