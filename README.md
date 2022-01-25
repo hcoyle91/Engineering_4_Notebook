@@ -311,6 +311,9 @@ The main problems I faced in this project was with the figuring out how to round
 
 ### Evidence
 
+https://user-images.githubusercontent.com/56696954/151002572-d39cbac6-a3ac-4cc4-89d9-feb1f5dd27be.MOV
+
+
 ### Wiring/Code
 
 #### Wiring
