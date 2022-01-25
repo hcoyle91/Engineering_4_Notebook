@@ -309,6 +309,8 @@ The main problems I faced in this project was with the figuring out how to round
 
 ### Description
 
+For this assignment I brought everything together; I had to make a circle move on the OLED dsplay based off of the acelerometers readigns of accel_x and accel_y. I also needed to make this code run whenever my pi is started and hook up a battery so I could run the circle code with no other computer/monitor. 
+
 ### Evidence
 
 https://user-images.githubusercontent.com/56696954/151002572-d39cbac6-a3ac-4cc4-89d9-feb1f5dd27be.MOV
@@ -321,3 +323,4 @@ https://user-images.githubusercontent.com/56696954/151002572-d39cbac6-a3ac-4cc4-
 #### Code
 
 ### Reflection
+In order to not short the system out when I wanted to shutdown the Pi, I included a button, with code that runs in the backround, that resets the pi if pressed for 1 second and shuts down the pi if held for 30 seconds.
