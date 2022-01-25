@@ -322,6 +322,8 @@ https://user-images.githubusercontent.com/56696954/151002572-d39cbac6-a3ac-4cc4-
 
 #### Code
 
+https://github.com/hcoyle91/Engineering_4_Notebook/blob/0c98a055e21334847e26e0bf48957e6931657144/CircleAccelerometer.py
+
 ```C
 import time    #imports time library and other libraries for accelerometer (LSM303) and OLED display (SSD1306)
 import Adafruit_LSM303        
