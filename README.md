@@ -372,7 +372,7 @@ while True:                # A loop that reads the accelerometer values( acceler
 disp.image(image)
 disp.display()
 
-```C
+```
 
 ### Reflection
 In order to not short the system out when I wanted to shutdown the Pi, I included a button, with code that runs in the backround, that resets the pi if pressed for 1 second and shuts down the pi if held for 30 seconds.
