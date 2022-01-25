@@ -320,6 +320,10 @@ https://user-images.githubusercontent.com/56696954/151002572-d39cbac6-a3ac-4cc4-
 
 #### Wiring
 
+<img src="https://github.com/hcoyle91/Engineering_4_Notebook/blob/4b4d4c1ef8f11f8c00ef0b2f0ecb4d68c752398f/Circle%20wiring%202.jpeg
+" width="350" height="400" />     <img src="https://github.com/hcoyle91/Engineering_4_Notebook/blob/4b4d4c1ef8f11f8c00ef0b2f0ecb4d68c752398f/Circle%20wiring%201.jpeg
+" height="400" />
+
 #### Code
 
 https://github.com/hcoyle91/Engineering_4_Notebook/blob/0c98a055e21334847e26e0bf48957e6931657144/CircleAccelerometer.py
