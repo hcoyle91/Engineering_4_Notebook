@@ -387,7 +387,7 @@ In order to not short the system out when I wanted to shutdown the Pi, I include
 
 ### Evidence
 
-<img src="https://user-images.githubusercontent.com/56696954/151389818-e08be299-5a85-4a3e-ba02-b561e774cb70.jpg" width="350" height="400" /><img src="https://user-images.githubusercontent.com/56696954/151390677-2e98f7dd-d38e-4a50-9c44-5cc1cfbc582f.jpg" width="350" height="400" /><img src="https://user-images.githubusercontent.com/56696954/151390719-57148170-8e04-4f25-a85e-32817a26b0d3.jpg" width="350" height="400" /><img src="https://user-images.githubusercontent.com/56696954/151390754-c473e71f-16cf-40d7-930d-f211b1d072ed.jpg" width="350" height="400" />
+<img src="https://user-images.githubusercontent.com/56696954/151389818-e08be299-5a85-4a3e-ba02-b561e774cb70.jpg" width="425" height="400" />  <img src="https://user-images.githubusercontent.com/56696954/151390677-2e98f7dd-d38e-4a50-9c44-5cc1cfbc582f.jpg" width="425" height="400" />  <img src="https://user-images.githubusercontent.com/56696954/151390719-57148170-8e04-4f25-a85e-32817a26b0d3.jpg" width="425" height="400" />  <img src="https://user-images.githubusercontent.com/56696954/151390754-c473e71f-16cf-40d7-930d-f211b1d072ed.jpg" width="425" height="400" />
 
 
 ### Code/Wiring
