@@ -10,7 +10,7 @@ frame = 1
 while True:
     try:
         button.wait_for_press()
-        camera.capture('/home/pi/Documents/Engineering_4_Notebook/Pics.py/frame%03d.jpg' % frame)
+        camera.capture('/home/pi/Documents/Engineering_4_Notebook/Pi_Pictures/frame%03d.jpg' % frame)
         frame += 1
     except KeyboardInterrupt:
         camera.stop_preview()
