@@ -388,6 +388,8 @@ In order to not short the system out when I wanted to shutdown the Pi, I include
 
 ### Description
 
+For this assignment I had to take pictures with the pi camera extension. I then had to create code that dimesioned the photos and took 5 of them with different effects. 
+
 ### Evidence
 
 <img src="https://user-images.githubusercontent.com/56696954/151389818-e08be299-5a85-4a3e-ba02-b561e774cb70.jpg" width="425" height="400" />  <img src="https://user-images.githubusercontent.com/56696954/151390677-2e98f7dd-d38e-4a50-9c44-5cc1cfbc582f.jpg" width="425" height="400" />  <img src="https://user-images.githubusercontent.com/56696954/151390719-57148170-8e04-4f25-a85e-32817a26b0d3.jpg" width="425" height="400" />  <img src="https://user-images.githubusercontent.com/56696954/151390754-c473e71f-16cf-40d7-930d-f211b1d072ed.jpg" width="425" height="400" />
@@ -396,7 +398,29 @@ In order to not short the system out when I wanted to shutdown the Pi, I include
 ### Code/Wiring
 
 #### Code:
+* [Link to code](https://github.com/hcoyle91/Engineering_4_Notebook/blob/475c97ae26f624aa2cff7056ce5debf23e4f70a0/Pi_Pictures/Pics.py)
+```C
+import time
+import picamera
+effect_arr = ['negative', 'solarize', 'sketch', 'denoise', 'cartoon']
+name_arr = ['picture1.jpg', 'picture2.jpg', 'picture3.jpg', 'picture4.jpg', 'picture5.jpg']
+i = 0
+x = 0
+with picamera.PiCamera() as camera:
+    camera.resolution = (1024, 768)
+    camera.start_preview()
+    print("Running...")
+    for x in range(5):
+        time.sleep(.1)
+        camera.image_effect = effect_arr[i]
+        camera.capture(name_arr[x])
+        print("Another picture taken")
+        i +=1
+        x +=1
+```
 
 #### Wiring:
+
+
 
 ### Reflection
