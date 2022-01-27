@@ -389,6 +389,9 @@ In order to not short the system out when I wanted to shutdown the Pi, I include
 
  <img src="https://user-images.githubusercontent.com/56696954/149358208-66d65f79-0f33-4c0a-834e-7d600d58f13f.jpeg" width="350" height="400" />
 
+![picture1](https://user-images.githubusercontent.com/56696954/151389818-e08be299-5a85-4a3e-ba02-b561e774cb70.jpg)
+
+
 ### Code/Wiring
 
 #### Code:
