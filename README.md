@@ -424,3 +424,6 @@ with picamera.PiCamera() as camera:
 <img src="https://github.com/hcoyle91/Engineering_4_Notebook/blob/main/Pi_Pictures/Pi%20pics%20wiring.jpeg" width="350" height="400" />
 
 ### Reflection
+
+In order to take five pictures with 5 different effects, I created two arrays. One contained the 5 different effects as strings. The other array contained 5 different arrays with a '.jpg'. This second array served to store each picture under a different name so I didn't just end up with just one picture. I ran through a for loop and changed the effect and name of the picture each loop relative to which loop it was in. The main problem I ran into was with the hardware: I couldn't connect the camera's cables to my Pi as the tiny black connector was missing. I ended up just borrowing someone elses for the day.
+
