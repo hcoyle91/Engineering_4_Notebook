@@ -11,4 +11,4 @@ with picamera.PiCamera() as camera:
         camera.image_effect = effect_arr[i]
         camera.capture('Picture2.jpg')
         print("Another picture taken")
-        i++
+        i = i+1
