@@ -15,6 +15,7 @@
 * [Rasberry Pi Safe Shutdown](https://github.com/hcoyle91/Engineering_4_Notebook/blob/main/README.md#rasberry-pi-safe-shutdown)
 * [Accelerometer With display](https://github.com/hcoyle91/Engineering_4_Notebook/blob/main/README.md#accelerometer-with-display)
 * [Circle moving with Accelerometer values](https://github.com/hcoyle91/Engineering_4_Notebook/blob/main/README.md#circle-moving-with-accelerometer-values)
+* [Pi Picture Effects](https://github.com/hcoyle91/Engineering_4_Notebook/blob/main/README.md#pi-camera-effects)
 
 ## Python_Dice_Roller
 * [Back to the top](#Top)
