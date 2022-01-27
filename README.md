@@ -421,6 +421,6 @@ with picamera.PiCamera() as camera:
 
 #### Wiring:
 
-<img src="https://github.com/hcoyle91/Engineering_4_Notebook/blob/main/Pi_Pictures/Pi%20pics%20wiring.jpeg" width="425" height="400" />
+<img src="https://github.com/hcoyle91/Engineering_4_Notebook/blob/main/Pi_Pictures/Pi%20pics%20wiring.jpeg" width="350" height="400" />
 
 ### Reflection
