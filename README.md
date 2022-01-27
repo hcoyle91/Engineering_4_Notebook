@@ -380,3 +380,20 @@ disp.display()
 
 ### Reflection
 In order to not short the system out when I wanted to shutdown the Pi, I included a button, with code that runs in the backround, that resets the pi if pressed for 1 second and shuts down the pi if held for 30 seconds. The main difficulty in this assignmnet was making sure the coordinantes of the circle were correct. I had to make the x coordinate variable read the acceleration of accel_y and make it negative so the circle correctly moved down when tilted town instead of up. I thought the code was wrong for a while but it turns out the circle was just off screen. So for every the instance coords where read in the while loop, I had to add 64 to the x and 32 to the y. This made it so, at rest, the circle was centered in the screen.
+
+## Pi Camera Effects
+
+### Description
+
+### Evidence
+
+<img src="https://github.com/hcoyle91/Engineering_4_Notebook/blob/main/Pi_Pictures/picture1.jpg
+" width="350" height="400" />
+
+### Code/Wiring
+
+#### Code:
+
+#### Wiring:
+
+### Reflection
