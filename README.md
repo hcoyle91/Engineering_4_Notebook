@@ -387,7 +387,7 @@ In order to not short the system out when I wanted to shutdown the Pi, I include
 
 ### Evidence
 
-<img src="https://github.com/hcoyle91/Engineering_4_Notebook/blob/main/Pi_Pictures/picture1.jpg
+<img src="https://github.com/hcoyle91/Engineering_4_Notebook/blob/93640f6cfe4c377b048ee857bc37d48801056ce0/Pi_Pictures/picture1.jpg
 " width="350" height="400" />
 
 ### Code/Wiring
