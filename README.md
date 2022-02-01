@@ -470,7 +470,7 @@ while True:
 ```
 
 #### Wiring:
-![Pi camera wiring w button](https://user-images.githubusercontent.com/56696954/151988431-ce350711-6d66-4466-a198-2c4ced0a9e10.jpeg)
+<img src="https://user-images.githubusercontent.com/56696954/151988431-ce350711-6d66-4466-a198-2c4ced0a9e10.jpeg" width="350" height="400" />
 ### Reflection
 
 This assignment was easy as it was very similar to the previous camera assignment. I wanted my code to take pictures while the button was pressed. The tricky part was trying to save each picture under a different name (.jpg) with corresponding numbers.
