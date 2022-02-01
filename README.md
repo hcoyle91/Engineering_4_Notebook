@@ -469,8 +469,10 @@ while True:             #This while loop waitsfor the button tobe pressed and th
 ```
 
 #### Wiring:
+
 <img src="https://user-images.githubusercontent.com/56696954/151988431-ce350711-6d66-4466-a198-2c4ced0a9e10.jpeg" width="350" height="400" />
+
 ### Reflection
 
-This assignment was easy as it was very similar to the previous camera assignment. I wanted my code to take pictures while the button was pressed. The tricky part was trying to save each picture under a different name (.jpg) with corresponding numbers. I wired the button to pin 17 to take pictures with.
+This assignment was easy as it was very similar to the previous camera assignment. I wanted my code to take pictures while the button was pressed. The tricky part was trying to save each picture under a different name (.jpg) with corresponding numbers. To solve this, I initialized an integer and named a photo using that integer in each loop. The variable 'frame' then icreased by one after every loop. I wired the button to pin 17 to take pictures with.
 
