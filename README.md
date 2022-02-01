@@ -16,6 +16,7 @@
 * [Accelerometer With display](https://github.com/hcoyle91/Engineering_4_Notebook/blob/main/README.md#accelerometer-with-display)
 * [Circle moving with Accelerometer values](https://github.com/hcoyle91/Engineering_4_Notebook/blob/main/README.md#circle-moving-with-accelerometer-values)
 * [Pi Picture Effects](https://github.com/hcoyle91/Engineering_4_Notebook/blob/main/README.md#pi-camera-effects)
+* [Making an Animation using Pi Pictures]()
 
 ## Python_Dice_Roller
 * [Back to the top](#Top)
@@ -426,4 +427,26 @@ with picamera.PiCamera() as camera:
 ### Reflection
 
 In order to take five pictures with 5 different effects, I created two arrays. One contained the 5 different effects as strings. The other array contained 5 different arrays with a '.jpg'. This second array served to store each picture under a different name so I didn't just end up with just one picture. I ran through a for loop and changed the effect and name of the picture each loop relative to which loop it was in. The main problem I ran into was with the hardware: I couldn't connect the camera's cables to my Pi as the tiny black connector was missing. I ended up just borrowing someone elses for the day.
+
+## Pi Animation
+
+
+
+### Description
+
+
+
+### Evidence
+![Pi Animation](https://user-images.githubusercontent.com/56696954/151986212-8b93782d-e217-40e8-99e7-bee3da683312.gif)
+
+
+
+### Code/Wiring
+
+#### Code:
+
+#### Wiring:
+
+
+### Reflection
 
