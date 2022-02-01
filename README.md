@@ -434,7 +434,7 @@ In order to take five pictures with 5 different effects, I created two arrays. O
 
 ### Description
 
-For this assignmnent I had to create a stop picture animation using pictures I took on my raspi camera.
+For this assignmnent I had to create a stop picture animation using pictures I took on my raspi camera. Each time I wanted to take a picture, a button should be availible to press.
 
 ### Evidence
 ![Pi Animation](https://user-images.githubusercontent.com/56696954/151986212-8b93782d-e217-40e8-99e7-bee3da683312.gif)
@@ -473,5 +473,5 @@ while True:
 <img src="https://user-images.githubusercontent.com/56696954/151988431-ce350711-6d66-4466-a198-2c4ced0a9e10.jpeg" width="350" height="400" />
 ### Reflection
 
-This assignment was easy as it was very similar to the previous camera assignment. I wanted my code to take pictures while the button was pressed. The tricky part was trying to save each picture under a different name (.jpg) with corresponding numbers.
+This assignment was easy as it was very similar to the previous camera assignment. I wanted my code to take pictures while the button was pressed. The tricky part was trying to save each picture under a different name (.jpg) with corresponding numbers. I wired the button to pin 17 to take pictures with.
 
