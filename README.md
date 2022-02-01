@@ -16,7 +16,7 @@
 * [Accelerometer With display](https://github.com/hcoyle91/Engineering_4_Notebook/blob/main/README.md#accelerometer-with-display)
 * [Circle moving with Accelerometer values](https://github.com/hcoyle91/Engineering_4_Notebook/blob/main/README.md#circle-moving-with-accelerometer-values)
 * [Pi Picture Effects](https://github.com/hcoyle91/Engineering_4_Notebook/blob/main/README.md#pi-camera-effects)
-* [Making an Animation using Pi Pictures]()
+* [Making an Animation using Pi Pictures](https://github.com/hcoyle91/Engineering_4_Notebook/blob/main/README.md#pi-animation)
 
 ## Python_Dice_Roller
 * [Back to the top](#Top)
@@ -430,23 +430,26 @@ In order to take five pictures with 5 different effects, I created two arrays. O
 
 ## Pi Animation
 
-
+* [Back to the top](#Top)
 
 ### Description
 
-
+For this assignmnent I had to create a stop picture animation using pictures I took on my raspi camera.
 
 ### Evidence
 ![Pi Animation](https://user-images.githubusercontent.com/56696954/151986212-8b93782d-e217-40e8-99e7-bee3da683312.gif)
 
 
-
 ### Code/Wiring
 
+
 #### Code:
+
 
 #### Wiring:
 
 
 ### Reflection
+
+This assignment was easy as it was very similar to the previous camera assignment. I wanted my code to take pictures while the button was pressed. The tricky part was trying to save each picture under a different name (.jpg) with corresponding numbers.
 
