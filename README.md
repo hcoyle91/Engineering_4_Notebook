@@ -16,6 +16,7 @@
 * [Accelerometer With display](https://github.com/hcoyle91/Engineering_4_Notebook/blob/main/README.md#accelerometer-with-display)
 * [Circle moving with Accelerometer values](https://github.com/hcoyle91/Engineering_4_Notebook/blob/main/README.md#circle-moving-with-accelerometer-values)
 * [Pi Picture Effects](https://github.com/hcoyle91/Engineering_4_Notebook/blob/main/README.md#pi-camera-effects)
+* [Making an Animation using Pi Pictures](https://github.com/hcoyle91/Engineering_4_Notebook/blob/main/README.md#pi-animation)
 
 ## Python_Dice_Roller
 * [Back to the top](#Top)
@@ -394,6 +395,7 @@ For this assignment I had to take pictures with the pi camera extension. I then 
 
 <img src="https://user-images.githubusercontent.com/56696954/151389818-e08be299-5a85-4a3e-ba02-b561e774cb70.jpg" width="425" height="400" />  <img src="https://user-images.githubusercontent.com/56696954/151390677-2e98f7dd-d38e-4a50-9c44-5cc1cfbc582f.jpg" width="425" height="400" />  <img src="https://user-images.githubusercontent.com/56696954/151390719-57148170-8e04-4f25-a85e-32817a26b0d3.jpg" width="425" height="400" />  <img src="https://user-images.githubusercontent.com/56696954/151390754-c473e71f-16cf-40d7-930d-f211b1d072ed.jpg" width="425" height="400" />
 
+###### Picture taken with: Asad Faqirzada [(github link)](https://github.com/afaqirz67)
 
 ### Code/Wiring
 
@@ -426,4 +428,52 @@ with picamera.PiCamera() as camera:
 ### Reflection
 
 In order to take five pictures with 5 different effects, I created two arrays. One contained the 5 different effects as strings. The other array contained 5 different arrays with a '.jpg'. This second array served to store each picture under a different name so I didn't just end up with just one picture. I ran through a for loop and changed the effect and name of the picture each loop relative to which loop it was in. The main problem I ran into was with the hardware: I couldn't connect the camera's cables to my Pi as the tiny black connector was missing. I ended up just borrowing someone elses for the day.
+
+## Pi Animation
+
+* [Back to the top](#Top)
+
+### Description
+
+For this assignmnent I had to create a stop picture animation using pictures I took on my raspi camera. Each time I wanted to take a picture, a button should be availible to press.
+
+### Evidence
+![Pi Animation](https://user-images.githubusercontent.com/56696954/151986212-8b93782d-e217-40e8-99e7-bee3da683312.gif)
+
+
+### Code/Wiring
+
+
+#### Code:
+
+##### Link:
+https://github.com/hcoyle91/Engineering_4_Notebook/blob/bf3d549df560df60fa825b1f291b8077ce38733f/Pi_Pictures/CopyPasta.py
+
+```C
+from picamera import PiCamera  # Import Time library
+from time import sleep
+from gpiozero import Button # Import Button library
+
+button = Button(17) # set variable 'button' to be at pin 17
+camera = PiCamera() #initializes the camera variable
+
+camera.start_preview()  
+frame = 1   #I use this later to number my pictures
+while True:             #This while loop waitsfor the button tobe pressed and then 'captures' a picture and stores it in the specified path. 
+    try:                    #It names it based on the variable 'frame' which goes up by one every loop.
+        button.wait_for_press()
+        camera.capture(f"/home/pi/Documents/Engineering_4_Notebook/Pi_Pictures/Animations/{frame}.jpg")
+        frame += 1
+    except KeyboardInterrupt:       #This breaks the code and stops the camera if there is any interupt from the user/keyboard
+        camera.stop_preview()
+        break
+```
+
+#### Wiring:
+
+<img src="https://user-images.githubusercontent.com/56696954/151988431-ce350711-6d66-4466-a198-2c4ced0a9e10.jpeg" width="350" height="400" />
+
+### Reflection
+
+This assignment was easy as it was very similar to the previous camera assignment. I wanted my code to take pictures while the button was pressed. The tricky part was trying to save each picture under a different name (.jpg) with corresponding numbers. To solve this, I initialized an integer and named a photo using that integer in each loop. The variable 'frame' then icreased by one after every loop. I wired the button to pin 17 to take pictures with.
 
