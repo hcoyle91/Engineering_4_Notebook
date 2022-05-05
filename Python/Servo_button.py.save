@@ -1,0 +1,21 @@
+## Henry Coyle - servo bluetooth code
+from gpiozero import Servo
+from time import sleep
+from gpiozero import Butto
+button = Button(18)
+servo = Servo(25)
+val =-1
+
+try:
+	while True:
+		if button.when_pressed:
+			print("turning")
+			servo.value = servo.value + .1
+			sleep(1)
+#			val = val +0.1
+#			if val>.99:
+#				val = -1
+except KeyboardInterrupt:
+	print("Stopping")
+
+
